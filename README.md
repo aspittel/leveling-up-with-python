@@ -141,6 +141,7 @@ print(next(one_to_one_hundred))
 ## Magic / Dunder / Special Methods
 
 ### Review Exercise: Create a BankAccount class.
+
 * Bank accounts should be created with the kind of account (like "savings" or "checking").
 * Each account should keep track of it's current balance.
 * Each account should have access to a deposit and a withdraw method.
@@ -149,6 +150,33 @@ print(next(one_to_one_hundred))
 
 ### What are Dunder Methods?
 
-### How Can We Use Them?
+You've probably seen one dunder method before, `__init__`, which is called whenever you create an instance of a class. These methods are invoked by Python when you use a built-in method. For example the `__str__` dunder method is called whenever we use the `str()` function on an instance of the class. Let's see what that looks like:
 
-### Exercise: Messy Bank Accounts
+```py
+class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def __str__(self):
+        return self.name
+
+
+maddie = Dog('Maddie')
+print(str(maddie))
+print(maddie)
+```
+Some others include:
+* `__getattr__` for when you get an attribute (i.e. `maddie.name`)
+* `__setattr__` for when you get an attribute (i.e. `maddie.name = 'Madison'`)
+* `__len__` for when you call `len` on the class
+* `__add__` for when you add instances of the class
+* `__getitem__` for using bracket notation on an instance of the class (i.e. `maddie['food']`)
+
+etc. They exist for almost every operator! [Reference on more](http://www.diveintopython3.net/special-method-names.html).
+
+### Exercise: Fancy Bank Accounts
+
+* When you print the bank account, make it so that it prints a well formatted blurb about the kind of account and its balance. (ex. `Savings Account: $50`) 
+* Make it so that you can add the balances of two bank accounts by adding two instances of the class.
+* Make it so that you can subtract, multiply, and divide the balances of two bank accounts by performing those mathematical operations on two instances of the class.
+* Make it so that you can compare the balances of two bank accounts by using the greater than, less than, and equals to operators in Python on two instances of the class.
