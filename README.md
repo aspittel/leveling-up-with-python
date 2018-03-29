@@ -180,3 +180,9 @@ etc. They exist for almost every operator! [Reference on more](http://www.divein
 * Make it so that you can add the balances of two bank accounts by adding two instances of the class.
 * Make it so that you can subtract, multiply, and divide the balances of two bank accounts by performing those mathematical operations on two instances of the class.
 * Make it so that you can compare the balances of two bank accounts by using the greater than, less than, and equals to operators in Python on two instances of the class.
+
+
+### My Previous Data Science Guest Lectures
+
+* [Web Development for Data Scientists](https://github.com/aspittel/web-dev-for-data-scientists)
+* [Intro to Bokeh](https://github.com/aspittel/ga-bokeh-lecture)
