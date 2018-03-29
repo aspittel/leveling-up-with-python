@@ -114,6 +114,22 @@ Sandi Metz, who is an awesome Ruby developer, speaker, and author has four rules
 
 ## Generators
 
+A generator is a function which returns an iterator instead of a collection or ready-to-use value. Sometimes we will want to generate a large amount of data -- so much data that it will be difficult for our computers to deal with at once. 
+
+Generators look very similar to a normal function, except they have yield statements which will produce a series of values that can be retrieved with the `next()` function.
+
+You've probably already used `range` in this class. Range is a generator! Let's write some code that will act like Python's built-in range function!
+
+```py
+def range_(start, end, increment=1):
+    while start < end:
+        yield start
+        start += increment
+
+one_to_one_hundred = range_(1, 100)
+print(next(one_to_one_hundred))
+```
+
 ### Exercise: Project Euler Problems with Generators
 
 * [Generate the Multiples of 3 and 5](https://projecteuler.net/problem=1)
@@ -122,4 +138,4 @@ Sandi Metz, who is an awesome Ruby developer, speaker, and author has four rules
 **Bonus**
 * [Generate the squer differences of numbers](https://projecteuler.net/problem=6)
 
-## Magic Methods
+## Magic / Dunder / Special Methods
