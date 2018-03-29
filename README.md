@@ -139,3 +139,16 @@ print(next(one_to_one_hundred))
 * [Generate the squer differences of numbers](https://projecteuler.net/problem=6)
 
 ## Magic / Dunder / Special Methods
+
+### Review Exercise: Create a BankAccount class.
+* Bank accounts should be created with the kind of account (like "savings" or "checking").
+* Each account should keep track of it's current balance.
+* Each account should have access to a deposit and a withdraw method.
+* Each account should start with a balance set to zero.
+* return the amount withdrawn, for convenience
+
+### What are Dunder Methods?
+
+### How Can We Use Them?
+
+### Exercise: Messy Bank Accounts
