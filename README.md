@@ -136,7 +136,7 @@ print(next(one_to_one_hundred))
 * [Generate Even Fibonacci Numbers](https://projecteuler.net/problem=2)
 
 **Bonus**
-* [Generate the squer differences of numbers](https://projecteuler.net/problem=6)
+* [Generate the square differences of numbers](https://projecteuler.net/problem=6)
 
 ## Magic / Dunder / Special Methods
 
