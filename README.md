@@ -52,6 +52,13 @@ import mymodule.myfile
 * Use whitespace sparingly elsewhere (within functions, loops, etc.)
 * Lambda functions, list comprehensions, and conditional expressions are fine as long as they are simple and fit on one line
 
+### PEP8 Tools
+
+If you are using a text editor, you can install a linter or package to check PEP8 compliance. You can also check from the command line by running the command `$ pip install pep8` and then running `$ pep8 my_file.py` to output whether your code complies with PEP8!
+
+### Exercise: PEP8 Your Code
+
+Take 5 minutes to PEP8-ify any piece of your code from this class. 
 
 ### Bonus: Google Style Docstrings
 
@@ -59,13 +66,9 @@ Docstrings are Python comments used for documentation. They start and end with t
 
 [Here](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) are some examples of Google style docstrings.
 
-### PEP8 Tools
+### Exercise: Docstring-ify Your Code
 
-If you are using a text editor, you can install a linter or package to check PEP8 compliance. You can also check from the command line by running the command `$ pip install pep8` and then running `$ pep8 my_file.py` to output whether your code complies with PEP8!
-
-### Exercise: PEP8 Your Code
-
-Take 5 minutes to PEP8-ify any piece of your code from this class. If you have time, start adding docstrings to explain your code.
+Take 5 minute to add Google Docstrings to one piece of your code from this class.
 
 ### Bonus: The Zen of Python
 
@@ -110,5 +113,13 @@ Sandi Metz, who is an awesome Ruby developer, speaker, and author has four rules
 ## Break (10 Minutes)
 
 ## Generators
+
+### Exercise: Project Euler Problems with Generators
+
+* [Generate the Multiples of 3 and 5](https://projecteuler.net/problem=1)
+* [Generate Even Fibonacci Numbers](https://projecteuler.net/problem=2)
+
+**Bonus**
+* [Generate the squer differences of numbers](https://projecteuler.net/problem=6)
 
 ## Magic Methods
