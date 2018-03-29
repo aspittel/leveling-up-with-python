@@ -2,7 +2,6 @@
 
 ## Learning Objectives
 
-* Customize a development environment
 * Discuss the PEP8 rules
 * Discuss Sandi Metz's rules for programming
 * Use generators in Python
